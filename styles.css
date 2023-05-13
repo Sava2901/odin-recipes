@@ -2,17 +2,27 @@ li{
     color: blue;
 }
 
-.optional{
-    background-color: white;
+li.optional{
+    
     font-family: 'arial';
-    font-size: 14px;
+    font-size: 13px;
 }
 
-img{
-    align-self: center;
+li > span{
+    background-color: rgb(191, 236, 173);
 }
+
+/*
+.pizza{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+}
+*/
 
 .container > div{
+    margin:auto;
     padding: 15px;
     text-align: center;
     font-family: '2em';
@@ -22,18 +32,39 @@ img{
     background-color: skyblue;
 }
 .container > div:nth-child(2){
+    flex: 3;
     background-color: palevioletred;
 }
 .container > div:nth-child(3){
     background-color: skyblue;
 }
+.container > div:nth-child(4){
+    flex: 0;
+    background-color: palevioletred;
+    gap: 16px;
+    display:grid;
+}
+
+.container > div:nth-child(4) > div:nth-child(1){
+    padding: 2px;
+    background-color: skyblue;
+}
+.container > div:nth-child(4) > div:nth-child(2){
+    padding: 2px;
+    background-color: skyblue;
+}
 
 .container{
     border: 5px solid black;
+    gap: 8px;
     display: flex;
 }
 
-html{
+.centr > button{
+    background-color: antiquewhite;
+}
+
+body{
     background-color: #ffeead;
     margin: 10px;
 }
