@@ -1,6 +1,6 @@
 # odin-recipes
 
-[Live Version](https://github.Sava2901/github.io/recipes/)
+[Live Version](https://Sava2901/github.io/odin-recipes/)
 
 This is a project conducted by the free course The Odin Project. 
 This is a task for me to build my first web page using what i learned form the last few lessons.
