@@ -3,11 +3,37 @@ li{
 }
 
 .optional{
-    background-color: palegoldenrod;
+    background-color: white;
     font-family: 'arial';
     font-size: 14px;
 }
 
 img{
     align-self: center;
+}
+
+.container > div{
+    padding: 15px;
+    text-align: center;
+    font-family: '2em';
+}
+
+.container > div:nth-child(1){
+    background-color: skyblue;
+}
+.container > div:nth-child(2){
+    background-color: palevioletred;
+}
+.container > div:nth-child(3){
+    background-color: skyblue;
+}
+
+.container{
+    border: 5px solid black;
+    display: flex;
+}
+
+html{
+    background-color: #ffeead;
+    margin: 10px;
 }
